@@ -1,0 +1,15 @@
+{
+    "name": "robbytaylor/htmlpurifier-tel",
+    "description": "Tel URI scheme for HTMLPurifier",
+    "require": {
+        "ezyang/htmlpurifier": "4.6.*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rob Taylor",
+            "email": "rob@uxblondon.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
