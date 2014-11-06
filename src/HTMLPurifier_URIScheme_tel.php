@@ -8,6 +8,6 @@ class HTMLPurifier_URIScheme_tel extends \HTMLPurifier_URIScheme
 
     public function doValidate(&$uri, $config, $context)
     {
-        return preg_match('|(+)?(\d+)(x\d+)?|', $uri);
+        return preg_match('|\+?\d+(x[\d]+)?|', $uri);
     }
 }
